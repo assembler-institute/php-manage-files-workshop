@@ -1,0 +1,23 @@
+{
+  "name": "php-manage-files-workshop",
+  "version": "1.0.0",
+  "description": "`php` `#backend` `#manage-files` `#master-in-software-engineering`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assembler-school/php-manage-files-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/assembler-school/php-manage-files-workshop/issues"
+  },
+  "homepage": "https://github.com/assembler-school/php-manage-files-workshop#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
