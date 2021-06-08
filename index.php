@@ -43,11 +43,11 @@
             <article class="my-3" id="introduction">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
                     <h3>Introduction</h3>
-                    <a class="d-flex align-items-center" href="/docs/5.0/content/typography/">Documentation</a>
+                    <a class="d-flex align-items-center" href="https://www.php.net/manual/es/function.readfile.php" target="_blank">Documentation</a>
                 </div>
 
                 <div>
-                    <p>Content here</p>
+                    <?php require_once("./workshop/1-introduction.php"); ?>
                 </div>
             </article>
             <article class="my-3" id="file-open-read">
