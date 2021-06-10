@@ -57,7 +57,7 @@
                 </div>
 
                 <div>
-                    <p>Content here</p>
+                    <?php require_once("./workshop/2-file-open-read.php"); ?>
                 </div>
             </article>
             <article class="my-3" id="file-create-write">
@@ -67,7 +67,7 @@
                 </div>
 
                 <div>
-                    <p>Content here</p>
+                    <?php require_once("./workshop/3-file-create-write.php"); ?>
                 </div>
             </article>
             <article class="my-3" id="file-upload">
@@ -77,7 +77,7 @@
                 </div>
 
                 <div>
-                    <p>Content here</p>
+                    <?php require_once("./workshop/4-file-upload.php"); ?>
                 </div>
             </article>
         </section>

@@ -43,15 +43,16 @@
                     <div class="accordion-body">
                         <p>In PHP there is a simple function to read a file and print their content. The <strong>readfile()</strong> function reads a file and writes it to the output buffer.</p>
                         <p>In this repository you have a file called <strong>"example-file.txt"</strong> that contains some plain text.</p>
-                        <pre style="background-color: #d5d5d5">&#60?
+                        <p><strong>Code:</strong></p>
 
-php echo readfile("./workshop/files/example-file.txt");
+                        <pre><code>&#60?<br><br>php echo readfile("./workshop/files/example-file.txt");<br><br>?></code></pre>
 
-?></pre>
-
-                        <!--TODO poner el resultado del fichero-->
-                        <p><strong>Example:</strong></p>
-                        <!-- &#60div>hola&#60/div> -->
+                        <p><strong>Result:</strong></p>
+                        <div class="alert alert-primary" role="alert">
+                            <p class="mb-0"><?php
+                                            echo readfile("./workshop/files/example-file.txt", false);
+                                            ?></p>
+                        </div>
                     </div>
                 </div>
             </div>
