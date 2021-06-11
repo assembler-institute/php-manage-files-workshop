@@ -19,7 +19,7 @@
             <tbody>
                 <tr>
                     <td>fopen()</td>
-                    <td>Opens a URL or a file, it requires two parameters, the file/url that you want to open and the way that you want to be opened. </td>
+                    <td>Opens a URL or a file, it requires two parameters, the file/url that you want to open and the way that you want to be opened.</td>
                     <td style="text-align: center;"><a href="https://www.php.net/manual/es/function.fopen.php" target="_blank" rel="noopener noreferrer">Link</a></td>
                 </tr>
                 <tr>
@@ -29,7 +29,7 @@
                 </tr>
                 <tr>
                     <td>fclose()</td>
-                    <td>Finally, you should close the file in order to save server memory (not mandatory but recommended)</td>
+                    <td>Finally, you should close the file in order to save server memory (not mandatory but recommended).</td>
                     <td style="text-align: center;"><a href="https://www.php.net/manual/es/function.fclose.php" target="_blank" rel="noopener noreferrer">Link</a></td>
                 </tr>
             </tbody>
@@ -67,7 +67,7 @@ try {
                 <?php
 
                 try {
-                    $fileName = "./workshop/files/example-file.txt";
+                    $fileName = "./workshop/files/2-open-read-file.txt";
 
                     if (!file_exists($fileName)) {
                         throw new Exception('File open failed');
@@ -90,3 +90,4 @@ try {
             </p>
         </div>
     </div>
+</div>

@@ -49,9 +49,11 @@
 
                         <p><strong>Result:</strong></p>
                         <div class="alert alert-primary" role="alert">
-                            <p class="mb-0"><?php
-                                            echo readfile("./workshop/files/example-file.txt", false);
-                                            ?></p>
+                            <p class="mb-0">
+                                <?php
+                                echo readfile("./workshop/files/1-introduction-file.txt", false);
+                                ?>
+                            </p>
                         </div>
                     </div>
                 </div>

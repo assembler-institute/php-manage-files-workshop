@@ -63,7 +63,7 @@
             <article class="my-3" id="file-create-write">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
                     <h3>Create/Write</h3>
-                    <a class="d-flex align-items-center" href="/docs/5.0/content/figures/">Documentation</a>
+                    <a class="d-flex align-items-center" href="https://www.php.net/manual/es/function.fwrite" target="_blank">Documentation</a>
                 </div>
 
                 <div>
@@ -73,7 +73,7 @@
             <article class="my-3" id="file-upload">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
                     <h3>Upload</h3>
-                    <a class="d-flex align-items-center" href="/docs/5.0/content/figures/">Documentation</a>
+                    <a class="d-flex align-items-center" href="/docs/5.0/content/figures/" target="_blank">Documentation</a>
                 </div>
 
                 <div>
