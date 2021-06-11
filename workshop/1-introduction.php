@@ -45,7 +45,7 @@
                         <p>In this repository you have a file called <strong>"example-file.txt"</strong> that contains some plain text.</p>
                         <p><strong>Code:</strong></p>
 
-                        <pre><code>&#60?<br><br>php echo readfile("./workshop/files/example-file.txt");<br><br>?></code></pre>
+                        <pre><code>&#60?php<br><br>php echo readfile("./workshop/files/example-file.txt");<br><br>?></code></pre>
 
                         <p><strong>Result:</strong></p>
                         <div class="alert alert-primary" role="alert">

@@ -37,36 +37,56 @@
 
         <p><strong>Code:</strong></p>
 
-        <pre><code>&#60?<br><br>$myfile = fopen("./workshop/example-file.txt", "r");<br><br>?></code></pre>
+        <pre><code>&#60?php<br><br>
+try {
+    $fileName = "./workshop/files/example-file.txt";
+
+    if (!file_exists($fileName)) {
+        throw new Exception('File open failed');
+    }
+
+    // The function returns a pointer to the file if it is successful or zero if it is not. Files are opened for read or write operations.
+    $file = fopen($fileName, "r");
+
+    // Reads the file
+    $content = fread($file, filesize($fileName));
+
+    echo $content;
+
+    // Close the file buffer
+    fclose($file);
+} catch (Throwable $t) {
+    echo $t->getMessage();
+}
+<br><br>?></code></pre>
 
         <p><strong>Result:</strong></p>
 
-        <?php
+        <div class="alert alert-primary" role="alert">
+            <p class="mb-0">
+                <?php
 
+                try {
+                    $fileName = "./workshop/files/example-file.txt";
 
-        try {
-            $fileName = "./workshop/files/example-file.txt";
+                    if (!file_exists($fileName)) {
+                        throw new Exception('File open failed');
+                    }
+                    // The function returns a pointer to the file if it is successful or zero if it is not. Files are opened for read or write operations.
+                    $file = fopen($fileName, "r");
 
-            if (!file_exists($fileName)) {
-                throw new Exception('File open failed.');
-            }
-            // The function returns a pointer to the file if it is successful or zero if it is not. Files are opened for read or write operations.
-            $file = fopen($fileName, "r");
+                    // Reads the file
+                    $content = fread($file, filesize($fileName));
 
-            $content = fread($file, filesize($fileName));
+                    echo $content;
 
-            echo $content;
+                    // Close the file buffer
+                    fclose($file);
+                } catch (Throwable $t) {
+                    echo $t->getMessage();
+                }
 
-            fclose($file);
-        } catch (Throwable $t) {
-            echo $t->getMessage();
-        }
-
-
-        ?>
-
-
-
-
+                ?>
+            </p>
+        </div>
     </div>
-</div>

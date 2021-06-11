@@ -53,7 +53,7 @@
             <article class="my-3" id="file-open-read">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
                     <h3>Open/Read</h3>
-                    <a class="d-flex align-items-center" href="/docs/5.0/content/images/">Documentation</a>
+                    <a class="d-flex align-items-center" href="https://www.w3schools.com/php/php_file_open.asp" target="_blank">Documentation</a>
                 </div>
 
                 <div>
