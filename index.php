@@ -42,7 +42,7 @@
 
             <article class="my-3" id="introduction">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-                    <h3>Introduction</h3>
+                    <h3 id="introduction">Introduction</h3>
                     <a class="d-flex align-items-center" href="https://www.php.net/manual/es/function.readfile.php" target="_blank">Documentation</a>
                 </div>
 
@@ -52,7 +52,7 @@
             </article>
             <article class="my-3" id="file-open-read">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-                    <h3>Open/Read</h3>
+                    <h3 id="open-read">Open/Read</h3>
                     <a class="d-flex align-items-center" href="https://www.w3schools.com/php/php_file_open.asp" target="_blank">Documentation</a>
                 </div>
 
@@ -62,7 +62,7 @@
             </article>
             <article class="my-3" id="file-create-write">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-                    <h3>Create/Write</h3>
+                    <h3 id="createwrite">Create/Write</h3>
                     <a class="d-flex align-items-center" href="https://www.php.net/manual/es/function.fwrite" target="_blank">Documentation</a>
                 </div>
 
@@ -72,7 +72,7 @@
             </article>
             <article class="my-3" id="file-upload">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-                    <h3>Upload</h3>
+                    <h3 id="upload">Upload</h3>
                     <a class="d-flex align-items-center" href="/docs/5.0/content/figures/" target="_blank">Documentation</a>
                 </div>
 
