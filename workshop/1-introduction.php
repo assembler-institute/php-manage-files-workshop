@@ -51,7 +51,7 @@
                         <div class="alert alert-primary" role="alert">
                             <p class="mb-0">
                                 <?php
-                                echo readfile("./workshop/files/1-introduction-file.txt", false);
+                                //TODO Implement
                                 ?>
                             </p>
                         </div>
