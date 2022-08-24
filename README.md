@@ -15,3 +15,9 @@ First of all, you will need to clone this repo:
 ```bash
 $ git clone https://github.com/assembler-school/php-manage-files-workshop.git
 ```
+
+Then install the dependencies:
+
+```bash
+$ npm install
+```
